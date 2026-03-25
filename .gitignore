@@ -1,0 +1,6 @@
+﻿*.Identifier*
+__pycache__/
+*.py[cod]
+.venv/
+__pypackages__/
+.pdm-python

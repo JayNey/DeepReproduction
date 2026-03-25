@@ -1,0 +1,20 @@
+# Project dependency declaration for DeepReproduction.
+
+[project]
+name = "DeepReproduction"
+version = "0.0.1"
+description = "Vulnerability Reproduction Based on LLM Agents"
+authors = []
+dependencies = [
+    "langchain==1.0.0",
+    "langchain-openai>=0.3.0",
+    "python-dotenv>=1.0.1",
+    "pydantic>=2.7.0",
+    "pyyaml>=6.0.3",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "None"}
+
+[tool.pdm]
+distribution = false
